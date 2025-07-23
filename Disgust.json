@@ -8,11 +8,11 @@
       "name": "Keyframe_1",
       "pose": [
         0.0,
-        -3.14158,
-        3.14158,
-        0.7240963855421687,
+        -1.5715799999999998,
+        1.5715799999999998,
+        -0.7259036144578312,
         0.0,
-        -0.2
+        0.0
       ],
       "timestamp": "2025-06-04T11:01:13.909187"
     },
@@ -21,11 +21,11 @@
       "name": "Keyframe_2",
       "pose": [
         0.0,
-        -3.14158,
-        2.1006950602409638,
-        1.6168674698795176,
+        -1.5715799999999998,
+        0.5306950602409637,
+        0.16686746987951762,
         -0.41635397590361434,
-        -0.08072289156626505
+        0.11927710843373496
       ],
       "timestamp": "2025-06-04T11:01:40.505223"
     },
@@ -34,11 +34,11 @@
       "name": "Keyframe_3",
       "pose": [
         0.7951807228915664,
-        -3.14158,
-        1.9114432530120482,
-        1.6168674698795176,
+        -1.5715799999999998,
+        0.34144325301204814,
+        0.16686746987951762,
         0.7191568674698794,
-        -0.2
+        0.0
       ],
       "timestamp": "2025-06-04T11:02:05.287913"
     },
@@ -47,11 +47,11 @@
       "name": "Keyframe_4",
       "pose": [
         0.0,
-        -3.14158,
-        3.14158,
-        0.7240963855421687,
+        -1.5715799999999998,
+        1.5715799999999998,
+        -0.7259036144578312,
         0.0,
-        -0.2
+        0.0
       ],
       "timestamp": "2025-06-04T11:02:13.657224"
     }
@@ -60,5 +60,27 @@
     "total_time": 2.0,
     "keyframe_count": 4,
     "actuator_count": 6
+  },
+  "coordinate_system": "new_radians_empirical",
+  "conversion_info": {
+    "converted_from": "old_radians",
+    "conversion_method": "empirically_derived",
+    "conversion_formulas": {
+      "shoulder_pan": "new = old",
+      "shoulder_lift": "new = old + 1.57",
+      "elbow_flex": "new = old - 1.57",
+      "wrist_flex": "new = old - 1.45",
+      "wrist_roll": "new = old",
+      "gripper": "new = old + 0.2"
+    },
+    "joint_order": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "validation_passed": false
   }
 }
