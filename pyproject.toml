@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intempus-so100-motion"
+version = "0.1.0"
+description = "SO-100 authoring motions with a small Python loader and sampler"
+requires-python = ">=3.10"
+license = "MIT AND CC-BY-4.0"
+license-files = ["LICENSE", "LICENSE-DATA"]
+readme = "README.md"
+
+[project.urls]
+Repository = "https://github.com/Intempus-Inc/so100EmotionLib"
+
+[tool.setuptools]
+packages = ["so100_motion"]
+package-dir = {so100_motion = "."}
+
+[tool.setuptools.package-data]
+so100_motion = ["*.json"]

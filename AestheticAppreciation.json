@@ -171,7 +171,6 @@
       "wrist_flex",
       "wrist_roll",
       "gripper"
-    ],
-    "validation_passed": false
+    ]
   }
 }
